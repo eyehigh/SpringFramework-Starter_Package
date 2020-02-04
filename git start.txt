@@ -9,3 +9,20 @@ $git config --list로 Name, Email 확인
 
 3. git bash에서 작업할 폴더로 이동 후
 $git init
+
+4. touch Readme.txt
+파일생성
+
+4. git add Readme.txt
+생성한 파일 추가
+
+5. git commit -m "Add Readme.txt"
+추가한 파일 커밋
+
+6. git remote add origin https://github.com/eyehigh/SpringFramework-Starter_Package.git
+깃허브 저장소와 연결
+
+7. git remote -v로 연결정보 확인
+
+
+8. git push 또는 git push -u origin master

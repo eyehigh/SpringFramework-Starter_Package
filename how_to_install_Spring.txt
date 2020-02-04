@@ -1,0 +1,7 @@
+1. STS(Spring Tool Suite)4 설치
+https://spring.io/tools 에서 최신버전 확인
+
+2. STS 실행, [help] - [Eclipse Marketplace]
+sts 검색 후, Spring Tools 3 Add-On for Spring Tools 4 설치
+
+3. [File] - [new] - [spring legacy project]

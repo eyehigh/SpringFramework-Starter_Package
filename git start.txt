@@ -26,3 +26,12 @@ $git init
 
 
 8. git push 또는 git push -u origin master
+
+
+9. git status로 확인
+
+10 . git add로 수정한 파일 다시 추가
+
+11. git commit 수행
+
+12. git push 수행

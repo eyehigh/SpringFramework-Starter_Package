@@ -5,3 +5,34 @@ https://spring.io/tools 에서 최신버전 확인
 sts 검색 후, Spring Tools 3 Add-On for Spring Tools 4 설치
 
 3. [File] - [new] - [spring legacy project]
+
+4. Properties - Project Facets
+Properties - Java Compiler
+java 버전 변경
+
+
+5. tomcat 설치(https://tomcat.apache.org/download-80.cgi)
+[window] - [Show View] - [Servers]
+
+6. Use Tomcat installation, Publish module contexts to separate XML files
+HTTP/1.1 8080
+
+7. Could not find 'tools.jar' in the active JRE 오류 발생시
+
+jdk/lib 경로에서 tools.jar를 복사해서 jre/lib 경로로 이동
+
+8. Window - Preferences - Web
+css files, HTML Files, JSP Files - UTF-8 변경
+
+Window - Preferences - Workspace 검색
+text file encoding UTF-8 설정
+
+Window - Preferences - Spelling 검색
+ 
+Encoding Default 설정
+
+
+#JSP 페이지 1번줄에 셋팅
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+
+출처: https://javaengine.tistory.com/entry/JSP-UTF-8-한글깨짐-처리방법 [nalaolla(날아올라)]

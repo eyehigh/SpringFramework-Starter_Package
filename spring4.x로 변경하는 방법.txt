@@ -1,0 +1,34 @@
+#pom.xml 변경점
+1. properties > java-version > 1.8 로 변경
+
+2. build> plugins > plugin(groupId가 org.apache.maven.plugins) > source, target  > 1.8 로 변경
+
+3. Maven 버전 변경
+[maven-eclipse-plugin       > 2.10 로 변경 ] 
+[ org.apache.maven.plugins > 3.7.0 로 변경 ] 
+[ org.codehaus.mojo          > 1.6 로 변경 ] 
+
+4. 프로젝트 우클릭 > Maven > Update Project
+
+
+# Spring 4.X 최신버전을 설치하기 위하여 MVNRepository 사이트에 접속해서 
+
+  Spring 4.X 최신버전을 확인한다.
+
+
+MVNRepository  사이트 > "spring-context" 로 검색 > Spring Context 클릭
+<org.springframework-version>속성값을 4.3.14.RELEASE로 변경 
+
+ MVNRepository  사이트 > "spring-webmvc" 로도 검색 > Spring Web MVC 클릭
+
+#Dynamic Web module 버전을 3.0으로 변경
+프로젝트(마우스우클릭) > Properties 클릭 >
+Project Facets > Dynamic Web Module > 3.0변경 > Apply and Close 클릭
+
+web.xml파일 수정 > web-app version="3.0" 변경 > web-app_3_0.xsd 로 변경
+
+
+#MVNRepository 사이트 아래에 보면 
+ "Spring Web MVC 4.3.14.RELEASE" 버전에 맞는 라이브러리 버전을 보여준다.(권장사항)
+ 예를들어  "Spring Web MVC 4.3.14.RELEASE" 버전을 사용하고 
+ "javax.servlet.jsp"라이브러리를 사용하고 싶으면 2.2.1버전을 사용하는것을 권장한다는 것이다.   

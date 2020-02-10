@@ -142,7 +142,19 @@
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
-		
+
+<!-- json return -->
+		<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.9.5</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.9.5</version>
+</dependency>
+<!--  -->
 		<!-- Test -->
 		<dependency>
 			<groupId>junit</groupId>

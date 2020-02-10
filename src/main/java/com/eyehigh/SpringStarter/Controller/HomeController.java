@@ -1,4 +1,4 @@
-package com.eyehigh.SpringStarter;
+package com.eyehigh.SpringStarter.Controller;
 
 import java.text.DateFormat;
 import java.util.Date;
